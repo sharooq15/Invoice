@@ -1,0 +1,126 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Invoice
+</name>
+</assembly>
+<members>
+<member name="T:Invoice.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Invoice.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Invoice.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Invoice.My.Resources.Resources.itextsharp">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Invoice.My.Resources.Resources.itextsharp_pdfa">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Invoice.My.Resources.Resources.itextsharp_xtra">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSet.adminDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSet.stockDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSet.adminRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSet.stockRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSet.adminRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSet.stockRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSetTableAdapters.adminTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSetTableAdapters.stockTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Invoice.InvoiceDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Invoice.InvoiceDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Invoice.InvoiceDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Invoice.InvoiceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Invoice.InvoiceDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Invoice.InvoiceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Invoice.InvoiceDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Invoice.InvoiceDataSetTableAdapters.TableAdapterManager.UpdateAll(Invoice.InvoiceDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Invoice.InvoiceDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
